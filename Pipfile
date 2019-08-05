@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mock = "~=3.0.5"
+pytest = "~=4.6.3"
+pytest-cov = "~=2.7.1"
+pytest-mock = "~=1.10.4"
+pylint = "~=2.3.1"
+
+
+[packages]
+strong-aws-lambda = {path = "."}
+dacite = "~=1.0.2"
+aws-lambda-context = "~=1.1.0"
+
+[requires]
+python_version = "3.7"

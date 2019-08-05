@@ -13,6 +13,11 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/rrezino/strong-aws-lambda",
     packages=setuptools.find_packages(),
+    python_requires=">=3.*",
+    install_requires=[
+        "dacite~=1.0.2",
+        "aws_lambda_context~=1.1.0"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
